@@ -1,0 +1,14 @@
+.status {
+    display: block;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.green {
+    background-color: green;
+}
+
+.status.red {
+    background-color: red;
+}
