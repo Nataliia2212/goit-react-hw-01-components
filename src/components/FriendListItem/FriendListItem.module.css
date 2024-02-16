@@ -1,3 +1,13 @@
+.item {
+display: flex;
+align-items: center;
+gap: 8px;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 16px;
+}
+
 .status {
     display: block;
     border-radius: 50%;

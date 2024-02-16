@@ -11,7 +11,7 @@ import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 export const App = () => {
   return (
-    <div>
+    <div >
       <Profile
         username={user.username}
         tag={user.tag}
@@ -24,7 +24,7 @@ export const App = () => {
       <FriendList> 
           <FriendListItem friends={friends} /> 
       </FriendList>
-      <TransactionHistory items={transactions} />;
+      <TransactionHistory items={transactions} />
     </div>
   );
 };
